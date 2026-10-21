@@ -1,0 +1,29 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Downloaded MNIST dataset (re-downloaded automatically)
+data/
+
+# Trained model files (large, re-created by train.py)
+models/*.pth
+models/*.tmp
+models/*.json
+
+# Generated outputs
+generated_images/*
+!generated_images/.gitkeep
+
+# Keep the empty folders in git
+!models/.gitkeep
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
